@@ -7,25 +7,16 @@
 package javaprogramsstart;
 
 
-/**
- *
- * @author PAVITHRA T
- */
     public class employee {
-    
-    
-    
-     
-    
     public static void main(String[] args) {
    
      
-    employe e1=new employe(100,"pavi","thara",10000);
+    employe e1=new employe(100,"madhu","chandha",10000);
     System.out.println(e1.getid());
-    System.out.println(e1.getfirstname());
-    System.out.println(e1.getlastname());
-    System.out.println(e1.getfullname());
-    System.out.println(e1.getsalary());
+    System.out.println(e1.getfirstname()); //get firstname
+    System.out.println(e1.getlastname()); //get last name
+    System.out.println(e1.getfullname()); //get full name
+    System.out.println(e1.getsalary());  //get salary
     e1.setsalary(15000);
     System.out.println(e1.getsalary());
     System.out.println(e1.getannualsalary());
