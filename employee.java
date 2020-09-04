@@ -12,7 +12,7 @@ package javaprogramsstart;
    
      
     employe e1=new employe(100,"madhu","chandha",10000);
-    System.out.println(e1.getid());
+    System.out.println(e1.getid());//get id
     System.out.println(e1.getfirstname()); //get firstname
     System.out.println(e1.getlastname()); //get last name
     System.out.println(e1.getfullname()); //get full name
